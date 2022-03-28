@@ -1,0 +1,81 @@
+body{
+    background-color: #f0f2f5;
+    margin: 0;
+}
+.header{
+    position: absolute;
+    width: 100%;
+    background-color: #f0f2f5;
+}
+.logo{
+   position: absolute;
+   margin-left: 140px;
+   margin-top: 180px;
+  width: 500px;
+  height: 106px;
+}
+.text{
+    position: absolute;
+    font-size: 28px;
+    line-height: 35px;
+    width: 500px;
+    font-weight: normal;
+    color: black;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin-left: 270px;
+    margin-top: 280px;
+}
+.box{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 850px;
+    background-color: #fff;
+    width: 400px;
+    border-radius: 7px;
+    height: 360px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.12), 
+              0 8px 8px rgba(0,0,0,0.12),
+              0 16px 16px rgba(0,0,0,0.12);
+}
+.inputbox1{
+    width: 370px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: medium;
+    text-align: left;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+   border: 1px solid #dddfe2;
+   font-family: Helvetica, Arial, sans-serif;
+}
+.loginbtn{
+  margin-top: 20px;
+  width: 375px;
+  margin-left: 15px;
+  font-weight: 700;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid #1877f2;
+  background-color: #1877f2;
+  color: white;
+}
+.loginbtn:hover{
+    background-color: #1567d3;
+    border-color: #4267b2
+}
+.createbtn{
+    width: 210px;
+    margin-left: 90px;
+    font-weight: 600;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid #42b72a;
+    background-color: #42b72a;
+    color: white;
+}
